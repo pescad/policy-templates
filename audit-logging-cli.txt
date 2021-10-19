@@ -1,0 +1,1 @@
+aws --region "${REGION_CODE}" eks describe-cluster --name "${CLUSTER_NAME}" - -query 'cluster.logging.clusterLogging[?enabled==true].types
