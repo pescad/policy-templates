@@ -1,4 +1,4 @@
 aws eks update-cluster-config \
     --region <region-code> \
     --name <my-cluster> \
-    --resources-vpc-config endpointPublicAccess=<true>,publicAccessCidrs="<203.0.113.5/32>",endpointPrivateAccess=<true>
+    --resources-vpc-config endpointPublicAccess=<true>,publicAccessCidrs="<172.16.10.10/32>",endpointPrivateAccess=<true>
